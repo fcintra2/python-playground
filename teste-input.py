@@ -1,3 +1,6 @@
+import sys
+print(sys.getrecursionlimit())
+
 try:
     print('Informe um número inteiro:')
     x = int(input())
